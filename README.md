@@ -1,104 +1,89 @@
-# CodeAlpha Language Translation Tool
+# 🌍 AI Language Translation Tool
 
 ## 📌 Project Overview
+This project is developed as part of the **CodeAlpha Artificial Intelligence Internship (Task 1)**.
 
-The Language Translation Tool is an AI-powered web application developed using Python and Streamlit. It allows users to translate text between multiple languages using Google Translate services. The application also provides text-to-speech functionality and audio download support.
+It is an AI-powered Language Translation Tool that allows users to translate text between multiple languages in real-time using Natural Language Processing (NLP) and translation APIs.
 
-## 🎯 Objective
-
-To create a user-friendly translation application where users can:
-
-* Enter text
-* Select source and target languages
-* Translate text instantly
-* Listen to translated text
-* Download translated audio
+---
 
 ## 🚀 Features
 
-* Multi-language text translation
-* Source and target language selection
-* Real-time translation
-* Text-to-speech conversion
-* Audio playback
-* Audio download option
-* Simple and interactive user interface
+- 🌐 Real-time text translation
+- 📥 Source and Target language selection
+- 🔤 Supports multiple languages (English, Hindi, Telugu, Tamil, Kannada, French, German, Spanish)
+- 📋 Copy translated text feature (browser-based)
+- 🔊 Text-to-Speech (audio output using gTTS)
+- ⬇ Download translated audio file
+- 🎯 Simple and interactive Streamlit UI
 
-## 🛠 Technologies Used
+---
 
-* Python
-* Streamlit
-* Deep Translator
-* Google Text-to-Speech (gTTS)
-* Pyperclip
+## 🛠️ Technologies Used
+
+- Python
+- Streamlit
+- deep_translator (GoogleTranslator API)
+- gTTS (Text-to-Speech)
+- HTML/JavaScript (for copy feature)
+
+---
 
 ## 📂 Project Structure
 
-CodeAlpha_LanguageTranslationTool
 
+CodeAlpha_FAQChatbot/
+│
 ├── app.py
-
 ├── requirements.txt
+└── README.md
 
-├── README.md
 
-└── translated_audio.mp3 (generated automatically)
+---
 
-## ⚙ Installation
+## ⚙️ Installation
 
-### 1. Clone the Repository
-
-git clone <repository-url>
-
-cd CodeAlpha_LanguageTranslationTool
-
-### 2. Install Dependencies
-
+### 1. Clone the repository
+```bash
+git clone https://github.com/ananyeahh11/CodeAlpha_FAQChatbot.git
+2. Navigate to project folder
+cd CodeAlpha_FAQChatbot
+3. Install dependencies
 pip install -r requirements.txt
-
-### 3. Run the Application
-
+▶️ Run the Application
 streamlit run app.py
 
-## 📖 Usage
+or
 
-1. Enter the text to translate.
-2. Select the source language.
-3. Select the target language.
-4. Click the Translate button.
-5. View the translated text.
-6. Copy the translated text.
-7. Listen to the translated audio.
-8. Download the audio file if required.
+python -m streamlit run app.py
+🧠 How It Works
+User enters text in input box
+Selects source and target language
+Text is sent to Google Translator API
+AI returns translated text
+User can:
+Copy translated text
+Listen via text-to-speech
+Download audio file
+📸 Features Summary
 
-## 🌐 Supported Languages
+✔ AI-based translation
+✔ Multi-language support
+✔ Copy & paste functionality
+✔ Speech output
+✔ User-friendly interface
 
-* English
-* Telugu
-* Hindi
-* Tamil
-* Kannada
-* French
-* German
-* Spanish
+🎯 Internship Task Completion
 
-## 📸 Output
+This project satisfies all requirements of CodeAlpha Task 1:
 
-The application displays:
+✔ User interface for input and language selection
+✔ Translation API integration
+✔ Display translated output clearly
+✔ Copy feature implemented
+✔ Text-to-Speech feature added
 
-* Original text
-* Translated text
-* Audio playback option
-* Download audio button
-
-## 🎓 Internship Information
-
-This project was developed as part of the Artificial Intelligence Internship at CodeAlpha.
-
-## 👩‍💻 Author
+👨‍💻 Developer
 
 Ananya
-
-B.Tech CSE 
-
-CodeAlpha Artificial Intelligence Internship
+CodeAlpha Artificial Intelligence Internship Project
